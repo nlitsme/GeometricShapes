@@ -1,4 +1,5 @@
-== python geometry module
+python geometry module
+======================
 
 Currently has module for generating the points and line segments of the platonic solids, in 3 and more dimensions.
 
