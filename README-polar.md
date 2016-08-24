@@ -5,11 +5,11 @@ A python module for converting between cartesian and polar/spherical coordinates
 
 There are several conventions to choose from:
 
-| dimension  | name  | parameters 
-| ============ | ======= | ============
-|    2-d     | polar | r, phi     
-|    3-d     | spherical | r, theta, phi 
-|    n-d     | n-spherical | r, phi1, phi2 .. phi[n-1] 
+| dimension  | name  | parameters |
+| --- | --- | --- |
+|    2-d     | polar | r, phi     |
+|    3-d     | spherical | r, theta, phi |
+|    n-d     | n-spherical | r, phi1, phi2 .. phi[n-1] |
 
 Two dimensions
 ==============
@@ -43,9 +43,9 @@ More dimensions
     x1 = r * cos(phi1)
     x2 = r * sin(phi1) * cos(phi2)
     x3 = r * sin(phi1) * sin(phi2) * cos(phi3)
- ...
+    ...
     x[i] = r * prod(sin(phi[j]), j=1..i-1) * cos(phi[i])
- ...
+    ...
     x[n-1] = r * prod(sin(phi[j]), j=1..n-2) * cos(phi[n-1])
     x[n] = r * prod(sin(phi[j]), j=1..n-1)
 
@@ -53,6 +53,7 @@ note: when we add a dummy variable phi[n+1] == 0, the formula's become even more
 
 
 (helper function)
+
     r[i] = sqrt(sum(x[j]^2, j=i..n))
 
     r = r[1]
