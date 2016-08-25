@@ -41,6 +41,7 @@ Each graph generator has:
  * a method `makeparts` for generating the parameters needed for `partname` of a given sub dimension.
  * a method `containspart` which tells if a _m_ dimensional part contains the _m-1_ dimensional subpart
 
+Example: [4-d shapes](https://github.com/nlitsme/GeometricShapes/releases/download/0.1/x4.pdf)
 
 AUTHOR
 ======
