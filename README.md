@@ -30,6 +30,12 @@ The qt and pygame versions use a simple Slider and Checkbox which might not look
 Slider and checkbox... It's the dashed lines, and the square box.
 
 
+shapegraphs
+===========
+
+Tool for generating a `.dot` graph showing how the points, edges, faces, 3d-volumes, etc are interdependent
+for Cubes, Tetrahedrons and Octahedrons of any dimension.
+
 AUTHOR
 ======
 
