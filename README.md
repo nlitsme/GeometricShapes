@@ -36,6 +36,8 @@ shapegraphs
 Tool for generating a `.dot` graph showing how the points, edges, faces, 3d-volumes, etc are interdependent
 for Cubes, Tetrahedrons and Octahedrons of any dimension.
 
+Example: [4-d shapes](https://github.com/nlitsme/GeometricShapes/releases/download/0.1/x4.pdf)
+
 AUTHOR
 ======
 
