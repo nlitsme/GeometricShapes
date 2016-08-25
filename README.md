@@ -36,6 +36,12 @@ shapegraphs
 Tool for generating a `.dot` graph showing how the points, edges, faces, 3d-volumes, etc are interdependent
 for Cubes, Tetrahedrons and Octahedrons of any dimension.
 
+Each graph generator has:
+ * a method `partname` for generating sensible labels for the points, edges, faces, etc.
+ * a method `makeparts` for generating the parameters needed for `partname` of a given sub dimension.
+ * a method `containspart` which tells if a _m_ dimensional part contains the _m-1_ dimensional subpart
+
+
 AUTHOR
 ======
 
