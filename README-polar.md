@@ -6,7 +6,7 @@ A python module for converting between cartesian and polar/spherical coordinates
 There are several conventions to choose from:
 
 | dimension  | name  | parameters |
-| --- | --- | --- |
+| ---------- | ----- | ---------- |
 |    2-d     | polar | r, phi     |
 |    3-d     | spherical | r, theta, phi |
 |    n-d     | n-spherical | r, phi1, phi2 .. phi[n-1] |
