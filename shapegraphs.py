@@ -129,7 +129,7 @@ class ntetragraph(graphbase):
 
 class noctagraph(graphbase):
     name = "NOcta"
-    # 2^(m+1) * binom(n, m+1)  m-dimensional parts in n-dimensional tetraeder
+    # 2^(m+1) * binom(n, m+1)  m-dimensional parts in n-dimensional octaeder
     def makeparts(self, m):
         # return m dimensional sub part of n-octa
         #  m==0 -> point,  m==1 -> line, ...
